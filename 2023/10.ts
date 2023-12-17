@@ -1,4 +1,3 @@
-```typescript
 type StreetSuffixTester<
   TStreet extends string,
   TSuffix extends string,
@@ -9,4 +8,3 @@ type StreetSuffixTester<
     ? true
     : StreetSuffixTester<TRest, TSuffix>
   : false
-```

@@ -1,4 +1,3 @@
-```typescript
 type Prettify<TObj extends Record<string, unknown>> = {
   [TKey in keyof TObj]: TObj[TKey]
 } & {}
@@ -13,4 +12,3 @@ type SantaListProtector<TObj extends Record<any, any>> = {
     ? TObj[TKey]
     : Prettify<SantaListProtector<TObj[TKey]>>
 }
-```

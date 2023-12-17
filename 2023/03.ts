@@ -1,4 +1,3 @@
-```typescript
 type GiftWrapper<
   TPresent extends string,
   TFrom extends string,
@@ -8,4 +7,3 @@ type GiftWrapper<
   from: TFrom
   to: TTo
 }
-```
