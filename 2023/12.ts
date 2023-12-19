@@ -24,7 +24,6 @@ type FindSanta<TList extends Array<any>> = LastItem<TList> extends '🎄'
 
 // TKdodo's solution, which I think is phenomenal
 // (https://github.com/TkDodo/aot-2023/blob/main/12.ts)
-
 type FindSanta2<
   TForest extends Array<any>,
   Acc extends Array<any> = [],
